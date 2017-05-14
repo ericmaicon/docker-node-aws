@@ -7,4 +7,6 @@ RUN apk add ca-certificates build-base wget zlib python
 RUN update-ca-certificates
 RUN wget https://bootstrap.pypa.io/get-pip.py
 RUN python get-pip.py
-RUN pip install --upgrade --user awscli
+RUN pip install awscli
+
+CMD ["aws"]
