@@ -1,4 +1,4 @@
-FROM node:7.10-alpine
+FROM node:alpine
 
 MAINTAINER Eric Maicon
 
